@@ -1,0 +1,131 @@
+html {
+    background: white url(https://designwoop.com/uploads/2012/03/16_free_subtle_textures_subtle_dark_vertical.jpg) repeat top right;
+}
+
+.pageTitle{
+    padding-top: 20px;
+    text-align: center;	
+   
+}
+
+.bioTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;	
+    margin-bottom: 30px;
+   
+}
+
+.insertCoin{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.insertCoin:active{
+    transform:skewX(25deg);  
+}
+
+.insertCoin:hover{
+    filter: invert(50%); 
+    -webkit-filter:invert(80%); 
+}
+
+.coin{
+    text-align: center;
+    margin-top: 10px;  
+}
+
+body{
+    color: navajowhite;
+}
+
+.characterSelect{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.characterSelect div{
+    width: 64px;
+    height: 72px;
+    border-left: 2px solid white;
+    border-right: 6px solid white;
+    border-top: 3px solid white;
+    border-bottom: 7px solid white;
+}
+
+
+.characterSelect div img{
+    border: 2px solid #020249;
+    
+}
+
+
+.characterSelect div img:hover{
+    transform: scale(1.4);
+}
+
+.characterSelect div img:active{
+    transform: translateZ(1px);
+}
+
+.characterAnim{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.largerImage{
+    width: 473px;
+    float: left;
+}
+
+.textBox{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 500px;
+    height: auto;
+    
+    padding: 10px;
+    padding-bottom: 30px;
+    
+    font-family: 'Basic', sans-serif;
+    
+    border-radius: 5px;
+    border: 3px;
+    border-style: solid;
+    border-color: navajowhite;
+}
+
+
+.charName{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.home{
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 40px;
+    
+}
+
+.home:hover{
+    filter: invert(50%); 
+    -webkit-filter:invert(80%);
+}
+
+.home:active{
+     transform:skewX(25deg);
+}
+
+@media only screen and (max-width: 620px){
+    .pageTitle img {
+        transform: scale(0.65);
+        
+    }
+    
+    .bioTitle{
+        transform: scale(0.65);
+    }
+}
