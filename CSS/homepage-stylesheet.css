@@ -69,6 +69,10 @@ body{
     transform: translateZ(1px);
 }
 
+.selectMenu{
+    transform: scale(0.7);
+}
+
 .characterAnim{
     padding-top: 50px;
     text-align: left;
@@ -79,10 +83,13 @@ body{
     float: left;
 }
 
+.healthBar{
+    text-align: center;
+}
+
 .textBox{
     float: left;
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
     width: 500px;
     height: auto;
     
@@ -99,14 +106,14 @@ body{
 
 
 .charName{
-    padding-top: 30px;
-    padding-left: 10px;
+    text-align: center;
+    padding-top: 15px;
 }
 
 .home{
-    text-align: center;
+    float left: auto;
     margin-right: 10px;
-    margin-top: 40px;
+
     
 }
 
@@ -119,13 +126,18 @@ body{
      transform:skewX(25deg);
 }
 
-.charName :last-child:hover{
+.songButton{
+    text-align: center;
+    margin-right: 425px;
+}
+
+.songButton:hover{
     filter: invert(50%); 
     -webkit-filter:invert(80%); 
 }
 
-.charName :last-child:active{
-     transform:scale(1.2)
+.songButton:active{
+     transform:translateY(5px);
 }
 
 
