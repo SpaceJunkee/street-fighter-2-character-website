@@ -119,6 +119,16 @@ body{
      transform:skewX(25deg);
 }
 
+.charName :last-child:hover{
+    filter: invert(50%); 
+    -webkit-filter:invert(80%); 
+}
+
+.charName :last-child:active{
+     transform:scale(1.2)
+}
+
+
 @media only screen and (max-width: 620px){
     .pageTitle img {
         transform: scale(0.65);
